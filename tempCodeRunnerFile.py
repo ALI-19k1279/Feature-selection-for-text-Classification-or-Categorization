@@ -1,0 +1,10 @@
+terms = tfidfvectorizer.fit_transform(string)
+    # X_train, X_test, y_train, y_test = train_test_split(terms, df['Type'],test_size=0.33, random_state=9)
+    # naive_bayesian_model = GaussianNB()
+    # naive_bayesian_model.fit(X_train.todense(), y_train)
+    # y_predict = naive_bayesian_model.predict(X_test.todense())
+    # accuracy = accuracy_score(y_test, y_predict)
+    # conf_matrix = confusion_matrix(y_true=y_test, y_pred=y_predict,labels=[0,1])
+    # precision,recall,fscore,non=precision_recall_fscore_support(y_test, y_predict,beta=1.0, labels=None, pos_label=1, average='weighted', warn_for=('precision', 'recall', 'f-score'), sample_weight=None, zero_division='warn')
+    # print(accuracy,precision,recall,fscore)
+    # return [accuracy,precision,recall,fscore]
